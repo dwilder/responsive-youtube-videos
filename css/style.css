@@ -1,0 +1,20 @@
+.lidd-youtube-widescreen {
+	position: relative;
+	width: 100%;
+	padding: 0 0 57.2727272727% 0;
+}
+
+.lidd-youtube-fullscreen {
+	position: relative;
+	width: 100%;
+	padding: 0 0 75% 0;
+}
+	
+.lidd-youtube-widescreen > iframe,
+.lidd-youtube-fullscreen > iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
