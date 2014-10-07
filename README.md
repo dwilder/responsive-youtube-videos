@@ -13,8 +13,8 @@ It includes a few useful attributes, like:
 
 Here's a basic example:
 
-[youtube]https://www.youtube.com/watch?v=838yExh9CTA[/youtube]
+<code>[youtube]https://www.youtube.com/watch?v=838yExh9CTA[/youtube]</code>
 
 And an example using all the attributes:
 
-[youtube url="https://www.youtube.com/watch?v=838yExh9CTA" rel="no" aspectratio="widescreen"]
+<code>[youtube url="https://www.youtube.com/watch?v=838yExh9CTA" rel="no" aspectratio="widescreen"]</code>
