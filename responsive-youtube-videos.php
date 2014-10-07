@@ -43,12 +43,15 @@ function lidd_youtube_shortcode( $attr, $content ) {
 	$aspectratio = array( 'aspectratio', 'ar', 'ratio' );
 	// Possible keys for related 'rel'
 	$related = array( 'rel', 'related', 'showrelated' );
-	foreach( $attr as $k => $v ) {
-		if ( in_array( $k, $aspectratio ) ) {
-			$attr['aspectratio'] = $v;
-		}
-		if ( in_array( $k, $related ) ) {
-			$attr['rel'] = $v;
+	
+	if ( !empty( $attr ) ) {
+		foreach( $attr as $k => $v ) {
+			if ( in_array( $k, $aspectratio ) ) {
+				$attr['aspectratio'] = $v;
+			}
+			if ( in_array( $k, $related ) ) {
+				$attr['rel'] = $v;
+			}
 		}
 	}
 	
